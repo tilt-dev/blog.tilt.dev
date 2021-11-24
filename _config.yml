@@ -1,0 +1,27 @@
+title: Tilt Blog
+email: hi@tilt.dev
+description: >-
+  Thoughts on how to make services easier to run, debug, and collaborate on locally
+baseurl: ""
+url: "https://blog.tilt.dev"
+docsurl: "https://docs.tilt.dev"
+landingurl: "https://tilt.dev"
+blogurl: "https://blog.tilt.dev"
+twitter_username: tilt_dev
+github_username:  windmilleng
+google_analytics: UA-129150759-3
+paginate: 12
+include:
+  - _redirects
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-inline-svg
+  - jekyll-paginate
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
